@@ -14,7 +14,7 @@ const Home = () => {
         { url: slide3 },
     ];
     const containerStyles = {
-        width: "90%",
+        width: "100%",
         height: "40vw",
         margin: "0 auto",
     };
@@ -24,8 +24,8 @@ const Home = () => {
     }, [])
 
     return (
-        <div className='home-main'>
-            <div style={containerStyles}>
+        <div className='home-main p-0 md:py-[90px]'>
+            <div style={containerStyles} className='!bg-[#f5f2eb]'>
                 <Imgslider slides={slides} />
             </div>
             <Education />

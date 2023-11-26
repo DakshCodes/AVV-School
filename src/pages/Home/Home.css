@@ -1,5 +1,10 @@
 .home-main {
     height: max-content;
     width: 100%;
-    padding-block: 85px;
+    padding-block: 90px;
+    background-image: url(/src/assets/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0ch 27ch ;
+    background-color: #ffffff;
 }

@@ -1,9 +1,12 @@
 .main-footer{
     height: max-content;
     padding-top: 40px;
+    background-image: url(/src/assets/hero-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 .footer {
-    background: #fff;
     padding: 30px;
 }
 

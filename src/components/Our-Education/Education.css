@@ -1,7 +1,11 @@
 .main-education {
     height: max-content;
     width: 100%;
+    padding-block: 30px;
     padding-inline: 30px;
+    background-image: url(/src/assets/video-shape-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .heading-eductaion {

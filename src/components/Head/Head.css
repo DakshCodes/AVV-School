@@ -1,7 +1,7 @@
 :root {
     --orange: #f9ba60;
     --pink: #e9768f;
-    --black: #1d1c1c;
+    --black: #000;
     --white: #fff;
     --light-color: #666;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
@@ -76,8 +76,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.7rem 5%;
-    background: var(--white);
+    padding: 1rem 5%;
+    background: #f5f2eb;
 }
 
 .header .logo {
