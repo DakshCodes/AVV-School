@@ -1,0 +1,53 @@
+.main-active {
+    height: max-content;
+    width: 100%;
+    padding-inline: 30px;
+}
+
+.heading-activity {
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.heading-activity span {
+    font-family: round;
+    text-transform: uppercase;
+}
+
+.activities .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.activities .box-container .box {
+    padding: 3rem 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: var(--box-shadow);
+    border-radius: 2rem;
+    outline: .1rem solid rgba(0, 0, 0, .1);
+    outline-offset: -1rem;
+}
+
+.activities .box-container .box img {
+    height: 8rem;
+    object-fit: contain;
+}
+
+.activities .box-container .box:hover img {
+    transform: scale(1.1);
+}
+
+.activities .box-container .box h3 {
+    font-family: via;
+    font-size: 2.2rem;
+    padding: 2rem 0;
+    color: var(--black);
+}
