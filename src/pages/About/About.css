@@ -1,0 +1,165 @@
+.img-holder {
+    overflow: hidden;
+}
+
+.about {
+    overflow: hidden;
+    background-image: url(../../assets/about-shape-3.png);
+    font-family: round;
+    padding: 0 100px;
+    height: max-content;
+}
+
+.section-text {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    height: max-content;
+    font-size: var(--fs-5);
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    line-height: 1.4;
+}
+
+
+.about .container {
+    height: max-content !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-banner {
+    position: relative;
+    z-index: 1;
+}
+
+.about-banner .img-holder {
+    border-radius: var(--radius-10);
+}
+
+.about-banner .img-holder img {
+    object-fit: contain;
+}
+
+
+
+
+.about :is(.section-subtitle, .section-title, .section-text) {
+    text-align: left;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vmax;
+    max-width: max-content;
+    margin: 3rem auto;
+    height: max-content;
+}
+
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 2vmax;
+    float: left;
+}
+
+.about-item svg {
+    height: 4vmax;
+}
+
+.about-item .span {
+    color: #000;
+    font-family: via;
+    font-size: 3.5vmax;
+    text-transform: lowercase;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .about {
+        padding-block-start: 50px;
+    }
+
+    .about-banner {
+        padding: 0px;
+        padding-inline-end: 0;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+
+    .about {
+        padding: 0 0px !important;
+    }
+
+    .about-banner .img-holder {
+        width: 100vw !important;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .about :is(.section-subtitle, .section-title, .section-text) {
+        text-align: center;
+    }
+
+    .img-holder {
+        overflow: hidden;
+        height: max-content !important;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+    .about .container {
+        grid-template-columns: 1fr 0.6fr;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+
+
+    .about .container {
+        gap: 0px;
+    }
+
+    .about-banner .img-holder {
+        margin-inline: 0;
+    }
+
+
+    .about-content {
+        line-height: 1;
+        z-index: 1;
+    }
+
+
+
+
+
+}

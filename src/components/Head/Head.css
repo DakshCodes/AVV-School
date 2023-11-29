@@ -144,7 +144,7 @@
     background-color: var(--white);
     padding-block: 12px;
     box-shadow: var(--shadow-1);
-    z-index: 4;
+    z-index: 999;
     font-family: var(--ff-poppins);
     font-weight: 100;
     overflow: hidden;
