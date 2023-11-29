@@ -24,7 +24,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div className='home-main p-0 md:py-[90px]'>
+        <div className='home-main'>
             <div style={containerStyles} className='!bg-[#f5f2eb]'>
                 <Imgslider slides={slides} />
             </div>

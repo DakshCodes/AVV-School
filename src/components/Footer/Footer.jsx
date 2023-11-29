@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="box-container">
                     <div className="box">
                         <h1 className=''>
-                            <img className='h-[25rem] object-contain' src={logo} alt="" />
+                            <img className='h-[15rem] object-contain' src={logo} alt="" />
                         </h1>
                     </div>
                     <div className="box">

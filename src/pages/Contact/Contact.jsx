@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="image">
-                        <img src={gif} alt />
+                        <img src='https://i.pinimg.com/564x/04/e4/7b/04e47b98b7e9a410533a286406566655.jpg' alt />
                     </div>
                     <form action>
                         <h3>get in touch</h3>

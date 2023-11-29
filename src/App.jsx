@@ -6,6 +6,7 @@ import './App.css';
 import Gallery from "./pages/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
+import About from "./pages/About/About";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
