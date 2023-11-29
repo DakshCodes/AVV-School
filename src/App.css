@@ -12,12 +12,16 @@
     src: url(/src/assets/Typo_Round_Regular_Demo.otf);
 }
 
+.round{
+    font-family: round;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
-    border: none;
+    /* border: none; */
     text-decoration: none;
     text-transform: capitalize;
     transition: all .2s linear;

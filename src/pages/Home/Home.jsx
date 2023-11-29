@@ -3,9 +3,11 @@ import Imgslider from '../../components/Imgslider/Imgslider'
 import Activity from '../../components/Our-Activity/Activity'
 import Education from '../../components/Our-Education/Education'
 import './Home.css'
+import "../../App.css"
 import slide1 from '../../assets/slider1.jpg'
 import slide2 from '../../assets/slider2.jpg'
 import slide3 from '../../assets/slider3.jpg'
+import Features from '../Features/Features'
 
 const Home = () => {
     const slides = [
@@ -29,6 +31,7 @@ const Home = () => {
                 <Imgslider slides={slides} />
             </div>
             <Education />
+            <Features />
         </div>
     )
 }

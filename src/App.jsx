@@ -7,6 +7,7 @@ import Gallery from "./pages/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
+import Features from "./pages/Features/Features";
 
 function App() {
 
