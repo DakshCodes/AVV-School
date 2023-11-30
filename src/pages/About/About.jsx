@@ -19,11 +19,10 @@ const About = () => {
                 </figure>
                 <div className="about-content">
                     <p className="section-text">
-                        As the name shows, Aditya means Sun, Vidhya means Education & Vihar means to make it reach in each corner so has been Aditya Vidhya Vihar School setting as an example.
-
-                        Aditya Vidhya Vihar Primary School has been contributing in the field of Education for more than 2 decades. This committed organization has produced many successful Teachers, Chartered Accountants,  IIT Engineers, Managers & many other types of professionals with its values of imparting knowledge, skills, etiquette, manners, creativity & most importantly understanding of life not just through the words but also through the behavior.
-                        Aditya Vidhya Vihar runs under Aditya Vidhya Vihar Shiksha Samiti which is the philanthropic Organization of AVV. It was founded in 1999 by Shri Rajendra Kumar Modi & Smt. Madhu Modi with a mission to enlighten the students & make their lives meaningful.
-                        Aditya Vidhya Vihar School has been running with its values that is the reason that it has been successfully giving the results & being trusted school for all the parents.
+                        As the name shows, Aditya means Sun, Vidhya means Education & Vihar means to make it reach in each corner so has been Aditya Vidhya Vihar School setting as an example
+                        Aditya Vidhya Vihar Primary School has been contributing in the field of Education for more than 2 decades This committed organization has produced many successful Teachers, Chartered Accountants,  IIT Engineers, Managers & many other types of professionals with its values of imparting knowledge, skills, etiquette, manners, creativity & most importantly understanding of life not just through the words but also through the behavior
+                        Aditya Vidhya Vihar runs under Aditya Vidhya Vihar Shiksha Samiti which is the philanthropic Organization of AVV It was founded in 1999 by Shri Rajendra Kumar Modi & Smt Madhu Modi with a mission to enlighten the students & make their lives meaningful
+                        Aditya Vidhya Vihar School has been running with its values that is the reason that it has been successfully giving the results & being trusted school for all the parents
                         Our Mission
                         To make Education available for all kinds of students while imparting good values, morals & skills as per contemporary requirements & demands
                     </p>

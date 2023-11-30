@@ -13,11 +13,11 @@
 .section-text {
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     height: max-content;
-    font-size: var(--fs-5);
+    font-size: 1.2rem;
     color: #000;
     text-align: center;
     background-color: #fff;
-    line-height: 1.4;
+    line-height: 2;
 }
 
 
