@@ -49,6 +49,7 @@ const Contact = () => {
                         </div>
                         <textarea placeholder="your message" cols={30} rows={10} defaultValue={""} />
                         <input type="submit" defaultValue="send message" className="btn" />
+                        <button className='btn m-auto !px-10'>Submit</button>
                     </form>
                 </div>
             </section>
