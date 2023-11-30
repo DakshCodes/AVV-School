@@ -10,12 +10,29 @@
 }
 
 .heading-eductaion {
-    font-size: 4rem;
+    font-size: 3.4rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 10rem;
     margin-bottom: 4rem;
+}
+
+@media (max-width:400px) {
+    .heading-eductaion {       
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width:280px) {
+    .heading-eductaion {
+        font-size: 3rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bolder;
+        margin-top: 10rem;
+        margin-bottom: 4rem;
+    }
 }
 
 .heading-eductaion span {

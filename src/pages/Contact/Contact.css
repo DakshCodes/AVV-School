@@ -3,7 +3,7 @@
     width: 100%;
 }
 .heading-contact {
-    font-size: 4rem;
+    font-size: 3.8rem;
     text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
@@ -19,6 +19,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1.5rem;
+}
+
+@media (max-width:600px) {
+    .contact .icons-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1.5rem;
+    }
 }
 
 .contact .icons-container .icons {

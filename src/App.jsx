@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Routes, Route } from 'react-router-dom'
 import Head from "./components/Head/Head"
 import Home from "./pages/Home/Home"
@@ -10,6 +10,10 @@ import About from "./pages/About/About";
 import Features from "./pages/Features/Features";
 
 function App() {
+
+  useEffect(() => {
+    console.clear()
+  }, [])
 
   return (
     <>
