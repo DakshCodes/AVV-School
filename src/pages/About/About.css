@@ -15,9 +15,10 @@
     height: max-content;
     font-size: 1.2rem;
     color: #000;
-    text-align: center;
+    text-align: justify !important;
     background-color: #fff;
     line-height: 2;
+
 }
 
 
