@@ -13,14 +13,14 @@ const data = [
     },
     {
         id: "1",
-        title: "Books and Stationery",
-        content: "In order for student to remain well faciliated , we provide stationery in schools ",
+        title: "Books and Syllabus",
+        content: "We have our customized cum personalised books and syllabus in order to help students take out the best out of them.",
         icon: PiBooksFill,
     },
     {
         id: "3",
         title: "Best Education Plans",
-        content: "Have a long term plan to make student more focused on determining their future",
+        content: "We love to be visionary while making plans for students so that their current learnings will get reflected in their future live.",
         icon: FaMap,
     },
 ]

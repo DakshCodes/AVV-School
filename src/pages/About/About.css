@@ -11,13 +11,14 @@
 }
 
 .section-text {
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: max-content;
+    /* font-family: round; */
     font-size: 1.2rem;
     color: #000;
     text-align: justify !important;
     background-color: #fff;
-    line-height: 2;
+    line-height: 1.8;
 
 }
 
@@ -61,7 +62,7 @@
 .about-item {
     display: flex;
     align-items: center;
-    gap: 2vmax;
+    gap: 1.3vmax;
 }
 
 .about-item svg {
@@ -70,9 +71,11 @@
 
 .about-item .span {
     color: #000;
-    font-family: via;
-    font-size: 3.2vmax;
-    text-transform: lowercase;
+    /* font-family: via; */
+    font-size: 5vmin;
+    font-family: round;
+    text-transform: uppercase;
+    font-weight: 900;
 }
 
 
@@ -120,6 +123,7 @@
         height: max-content !important;
         margin-bottom: 10px;
     }
+
     .about-content {
         line-height: 1;
         z-index: 1;

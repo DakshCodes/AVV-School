@@ -12,18 +12,18 @@ const Education = () => {
                 <div className="box-container">
                     <div className="box">
                         <h3>Stage-Fear Lessons</h3>
-                        <p>Building Confidence: Fun Stage-Fear Lessons for Kids to Embrace Self-Expression and Overcome Fear, Sparking Confidence in Learning</p>
+                        <p>We provide a platform to our students through many activities where they learn to plan, prepare and perform which help them to remove public speaking fear & become expressive</p>
                         <img src='https://i.pinimg.com/564x/6b/1a/4f/6b1a4f964b9f0139e4f7b9c7ad8d006e.jpg' alt />
                     </div>
                     <div className="box">
-                        <h3>sports lessons</h3>
-                        <p>Engaging Sports Lessons Fostering Teamwork, Discipline, and Well-being for Students' Holistic Development</p>
+                        <h3>Learn with fun</h3>
+                        <p>We have assimilated some edutaining games in our curriculum which makes learning fun and easy to remember the complex concepts</p>
                         <img src='https://i.pinimg.com/564x/c8/5f/89/c85f89a821458339c41fbe580d6e3110.jpg' alt />
                     </div>
                     <div className="box">
-                        <h3>drawing lessons</h3>
-                        <p>Step-by-Step Drawing Lessons Inspiring Young Artists to Explore Imagination, Develop Skills, and Unleash Artistic Potential</p>
-                        <img src='https://i.pinimg.com/564x/80/b2/9e/80b29ec7444d0371bb801d8028cdc8e6.jpg' alt />
+                        <h3>Computer Lessons</h3>
+                        <p>We also hold some classes for our students to get foundational level knowledge of computer and its functionality to align themselves with the modern world.</p>
+                        <img src='https://i.pinimg.com/564x/a8/eb/35/a8eb354dc19d5150bfb719a9aedb4e92.jpg' alt />
                     </div>
                 </div>
             </section>
