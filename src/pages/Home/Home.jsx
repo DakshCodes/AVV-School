@@ -30,6 +30,7 @@ const Home = () => {
             <div style={containerStyles} className='!bg-[#f5f2eb]'>
                 <Imgslider slides={slides} />
             </div>
+            {/* <Activity /> */}
             <Education />
             <Features />
         </div>

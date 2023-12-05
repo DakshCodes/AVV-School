@@ -31,7 +31,7 @@ const Features = () => {
             <main className=' border-green-500 p-[30px] h-fit my-[4rem]'>
 
                 <header className=' text-center  '>
-                    <h1 className='text-[4rem]'> <span className='font-bold'>OUR </span> <span className='font-round font-bold text-[#7600FF]'>  FEATURES</span></h1>
+                    <h1 className='text-[3.4rem]'> <span className='font-bold'>OUR </span> <span className='font-round font-bold text-[#7600FF]'>  FEATURES</span></h1>
                 </header>
 
                 <article className=' grid grid-cols-1 lg:grid-cols-3  py-2 gap-8 mt-[2rem] border-black'>
