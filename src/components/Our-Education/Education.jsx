@@ -22,7 +22,7 @@ const Education = () => {
                     </div>
                     <div className="box">
                         <h3>Computer Lessons</h3>
-                        <p>We also hold some classes for our students to get foundational level knowledge of computer and its functionality to align themselves with the modern world.</p>
+                        <p>We also hold some classes for our students to get foundational level knowledge of computer and its functionality to align themselves with the modern world</p>
                         <img src='https://i.pinimg.com/564x/a8/eb/35/a8eb354dc19d5150bfb719a9aedb4e92.jpg' alt />
                     </div>
                 </div>
